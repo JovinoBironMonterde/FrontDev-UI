@@ -5,31 +5,41 @@ import Link from 'next/link';
 const Sidebar = () => {
   return (
     <>
-      <div className="ul">
-        <li>
-          <Link href="/page/dashboard">Dashboard</Link>
-        </li>
-        <li>
-          <Link href="/page/Profile">Profile</Link>
-        </li>
-        <li>
-          <Link href="/page/buttons">Buttons</Link>
-        </li>
-        <li>
-          <Link href="/page/cards">Card</Link>
-        </li>
-        <li>
-          <Link href="/page/shadow">Shadow</Link>
-        </li>
-        <li>
-          <Link href="/page/widgets">Widgets</Link>
-        </li>
-        <li>
-          <Link href="/page/table">Tables</Link>
-        </li>
-        <li>
-          <Link href="/page/form">Form</Link>
-        </li>
+      <div className="Sidebar-menu p-4">
+        <ul>
+            <Link className='L' href="/page/dashboard">
+              <div className="Link p-2 rounded w-100">Dashboard</div>
+            </Link>
+
+            <Link className='L' href="/page/Profile">
+              <div className="Link p-2 rounded w-100">Profile</div>
+            </Link>
+          
+            <Link className='L' href="/page/buttons">
+              <div className="Link p-2 rounded w-100">Buttons</div>
+            </Link>
+          
+            <Link className='L' href="/page/cards">
+              <div className="Link p-2 rounded w-100">Card</div>
+            </Link>
+          
+            <Link className='L' href="/page/shadow">
+              <div className="Link p-2 rounded w-100">Shadow</div>
+            </Link>
+          
+            <Link className='L' href="/page/widgets">
+              <div className="Link p-2 rounded w-100">Widgets</div>
+            </Link>
+          
+            <Link className='L' href="/page/table">
+              <div className="Link p-2 rounded w-100">Tables</div>
+            </Link>
+          
+            <Link className='L' href="/page/form">
+              <div className="Link p-2 rounded w-100">Form</div>
+            </Link>
+          
+        </ul>
       </div>
     </>
   ); 

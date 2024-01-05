@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import Loadingspinner from '../../components/LoadingSpinner';
 import '../../../public/assets/css/frondevcss.css'
+import Card from '@mui/material/Card';
 
 const Buttons = () => {
   const [showSpinner, setShowSpinner] = useState(true);
@@ -26,6 +27,11 @@ const Buttons = () => {
 
       <div className="w-100">
         <h1>Button</h1>
+      </div>
+      <div className="content-Container">
+        <Card sx={{ maxWidth: 275 }}>
+          sds
+        </Card>
       </div>
     </div>
   );
